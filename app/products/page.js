@@ -27,7 +27,7 @@ export default function ProductsPage() {
       {/* HEADER NAVBAR - Cocoa & Gold Style */}
       <nav className="h-20 bg-white/40 backdrop-blur-md px-8 flex items-center justify-between border-b border-[#bc8a5f]/10 shrink-0 z-50">
         <div 
-          onClick={() => router.push("/")} 
+          onClick={() => router.push("/dashboard")} 
           className="flex items-center gap-3 cursor-pointer group"
         >
           <div className="w-10 h-10 bg-[#2c1810] rounded-2xl flex items-center justify-center text-[#bc8a5f] shadow-lg transition-all duration-500 group-hover:rotate-6 group-hover:scale-110">
